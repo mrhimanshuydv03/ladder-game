@@ -1,0 +1,117 @@
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding-top: 500px;
+    background-color:rgb(173, 131, 131);
+    background-image: url(https://img.freepik.com/free-photo/top-view-business-office-desk-background-applying-job-form-pen-pencil-eyeglasses-tree-wooden-table-background-with-copy-space_1921-21.jpg?w=1060&t=st=1709057496~exp=1709058096~hmac=e926a81f1c130ba8d502fab1e88796f986348bd511666d3d075161fe125a5055);
+}
+
+.register__img{
+
+    background-color:darkseagreen;
+    
+}
+
+
+
+/* Register Styles */
+.register {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.register__title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+.register__content {
+    margin-bottom: 20px;
+}
+.register__box {
+    position: relative;
+    margin-bottom: 20px;
+}
+.register__icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #ccc;
+}
+.register__box-input {
+    margin-left: 40px;
+}
+.register__input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+.register__label {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+.register__input:focus + .register__label,
+.register__input:valid + .register__label {
+    top: 0;
+    font-size: 14px;
+    color: #333;
+}
+.register__button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    
+    
+}
+.register__button:hover {
+    background-color: #45a049;
+}
+.register__login {
+    text-align: center;
+}
+.register__login a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.register__login a:hover {
+    color: #666;
+}
+
+
+.register__button a {
+text-decoration: none;
+color: aliceblue;
+}
