@@ -38,7 +38,7 @@ function populateLeaderboard() {
     <li>
     <span class="player-name">${attempt.user.name}</span>
     <span class="player-score">${attempt.score.toFixed(3)}</span>
-    <span class="player-score">${(attempt.time / 60).toFixed(2)} minutes</span>
+    <span class="player-score">${(attempt.time / 60).toFixed(2)} m</span>
     
     </li>
     `;
@@ -59,7 +59,7 @@ function populateCurrentAttempt() {
     const a = `
     <span >${currentUser.name}</span>
     <span >${currentAttempt.score.toFixed(3) * 10}</span>
-    <span >${(currentAttempt.time/60).toFixed(2)} minutes</span>
+<span >${(currentAttempt.time/60).toFixed(2)} m</span>
     
     `;
     currentAttemptDisplay.innerHTML = a;

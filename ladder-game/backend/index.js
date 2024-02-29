@@ -69,7 +69,7 @@ app.post("/attempt", async (req, res) => {
         profit,
         loss,
         time,
-        score: CalculateScore(profit ? profit.length : 0, loss ? loss.length : 1, time),
+        score: CalculateScore(profit ? profit.length : 0, loss.length == 0 ? 1 : loss.length, time),
     });
 
 
@@ -93,5 +93,5 @@ app.post("/attempt", async (req, res) => {
 });
 
 app.listen("3000", () => {
-    console.log("Server is running on port 3001");
+    console.log("Server is running on port 3000");
 });

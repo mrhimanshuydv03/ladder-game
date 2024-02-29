@@ -134,6 +134,7 @@ function changeCurrentPosition(diceValue) {
         changeActiveClass(presentValue);
     } else {
         if (isGameComplete()) {
+            // presentValue = isGameComplete;
             Swal.fire({
                 title: "Congratulations!",
                 text: "You have successfully completed InternShip Part-I.",
@@ -183,7 +184,7 @@ function isGameComplete() {
             // loss: [16, 39, 48],
             profit:uniqueProfit,
             loss:uniqueLoss,
-            time: Math.floor(Math.random() * 1000 + 1),
+            time: localTime,
         };
 
         fetch("http://localhost:3000/attempt", {

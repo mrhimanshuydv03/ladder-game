@@ -8,6 +8,10 @@ body {
     padding-top: 500px;
     background-color:rgb(173, 131, 131);
     background-image: url(https://img.freepik.com/free-photo/top-view-business-office-desk-background-applying-job-form-pen-pencil-eyeglasses-tree-wooden-table-background-with-copy-space_1921-21.jpg?w=1060&t=st=1709057496~exp=1709058096~hmac=e926a81f1c130ba8d502fab1e88796f986348bd511666d3d075161fe125a5055);
+    background-repeat: no-repeat;
+    /* height: 100%;
+    width: 100%; */
+    background-size: 120% 120%;
 }
 
 .register__img{
